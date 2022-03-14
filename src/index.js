@@ -6,6 +6,6 @@ app.length("/", () => [
   }),
 ]);
 
-const port = 8080;
+const port = process.env.port || 8080;
 
 app.listen(port, () => console.log(`server is listening on port ${port}`));
