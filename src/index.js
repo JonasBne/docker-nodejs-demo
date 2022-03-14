@@ -1,6 +1,6 @@
 const app = require("express");
 
-app.length("/", () => [
+app.get("/", () => [
   res.json({
     message: "Docker demo  🐳 ",
   }),
