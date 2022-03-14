@@ -1,0 +1,27 @@
+{
+  "name": "docker-nodejs-demo",
+  "version": "1.0.0",
+  "description": "Docker demo from Fireship.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasBne/docker-nodejs-demo.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "express"
+  ],
+  "author": "Jonas Boone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasBne/docker-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/JonasBne/docker-nodejs-demo#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
